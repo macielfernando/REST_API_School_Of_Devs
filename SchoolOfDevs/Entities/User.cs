@@ -4,7 +4,8 @@ namespace SchoolOfDevs.Entities
 {
     public class User : BaseEntity
     {
-        public int id { get; set; }
+
+        public int Id { get; set; }
 
         public string FirestName { get; set; }
 

@@ -7,11 +7,11 @@ namespace SchoolOfDevs.Helpers
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options){}
 
-        public DbSet<User>User {get;set;}
-        public DbSet<Note>Note {get;set;}
+        public DbSet<User>Users {get;set;}
+        public DbSet<Note>Notes {get;set;}
         public DbSet<Course>Courses {get;set;}
          
     }
 }
-
+ 
 
